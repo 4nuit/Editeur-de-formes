@@ -8,4 +8,4 @@ Le résultat reste néanmoins très satisfaisant même si incomplet (manquent le
 
 Le projet entier est dans le fichier editor.tgz 
 
-Un grand merci à mon binôme et ami sans lequel l'éditeur de formes ne serait tout simplement pas fonctionnel!
+Un grand merci à mon binôme et ami, un autre ami fort en java et en caféine;) , ainsi qu'à l'auteur des pdf ci dessus , personnes sans lequelles l'éditeur de formes ne serait tout simplement pas fonctionnel!
