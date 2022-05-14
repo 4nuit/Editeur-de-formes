@@ -8,4 +8,6 @@ Le résultat reste néanmoins très satisfaisant même si incomplet (manquent le
 
 Le projet entier est dans le fichier editor.tgz , pour l'utiliser , vous aurez besoin de Java FX et de Scene builder (voir ici https://gluonhq.com/products/javafx/) (voir "TP Editor.pdf", même si Intellij est recommandé:/)
 
+Une fois tout le bazar installé, vous pouvez faire du dessin avec des cercles, rectangles et ellipses, ainsi que d'utiliser les boutons pour vérifier ou changer leurs propriétés/ recommencer votre dessin!
+
 Un grand merci à mon binôme et ami, un autre ami fort en java et en caféine;) , ainsi qu'à l'auteur des pdf ci dessus , personnes sans lequelles l'éditeur de formes ne serait tout simplement pas fonctionnel!
