@@ -6,6 +6,6 @@ Un projet ambitieux (1 mois?) où il faut comprendre les patterns utilisés et l
 
 Le résultat reste néanmoins très satisfaisant même si incomplet (manquent les polygônes et autres étoiles)
 
-Le projet entier est dans le fichier editor.tgz , pour l'utiliser , vous aurez besoin de Java FX et de Scene builder (voir ici https://gluonhq.com/products/javafx/) (voir les pdf)
+Le projet entier est dans le fichier editor.tgz , pour l'utiliser , vous aurez besoin de Java FX et de Scene builder (voir ici https://gluonhq.com/products/javafx/) (voir "TP Editor.pdf", même si Intellij est recommandé:/)
 
 Un grand merci à mon binôme et ami, un autre ami fort en java et en caféine;) , ainsi qu'à l'auteur des pdf ci dessus , personnes sans lequelles l'éditeur de formes ne serait tout simplement pas fonctionnel!
