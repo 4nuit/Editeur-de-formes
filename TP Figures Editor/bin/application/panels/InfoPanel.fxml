@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.panels.InfoPanelController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="84.0" minWidth="-Infinity" prefWidth="67.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="79.0" minWidth="-Infinity" prefWidth="67.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="66.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="24.0" minHeight="24.0" prefHeight="24.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="figureNameLabel" text="Name" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" prefHeight="16.0" prefWidth="68.0" text="    Type" GridPane.rowIndex="1" />
+      <Label contentDisplay="CENTER" prefHeight="16.0" prefWidth="48.0" text="    Fill" GridPane.rowIndex="2" />
+      <Label prefHeight="16.0" prefWidth="64.0" text="  Stroke" GridPane.rowIndex="3" />
+      <Label prefHeight="16.0" prefWidth="74.0" text=" top left" GridPane.rowIndex="5" />
+      <Label prefHeight="16.0" prefWidth="87.0" text=" bottom right" GridPane.rowIndex="6">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label prefHeight="14.0" prefWidth="73.0" text=" dimensions" GridPane.rowIndex="7">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" prefHeight="16.0" prefWidth="69.0" text="  center" GridPane.rowIndex="8" />
+      <Label prefHeight="14.0" prefWidth="66.0" text=" translation" GridPane.rowIndex="9">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" text=" rotation" GridPane.rowIndex="10" />
+      <Label text=" center" GridPane.rowIndex="11" />
+      <ImageView fx:id="figureTypeImageView" fitHeight="32.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../../../bin/icons/Circle-16.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lineTypeImageView" fitHeight="84.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+         <image>
+            <Image url="@../../../bin/icons/Stroke_Dashed-32.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="fillColorCircle" fill="DODGERBLUE" radius="14.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Circle fx:id="edgeColorCircle" fill="DODGERBLUE" radius="14.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label prefHeight="16.0" prefWidth="55.0" text="       x" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label prefHeight="16.0" prefWidth="58.0" text="       y" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label fx:id="topLeftXLabel" contentDisplay="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="topLeftYLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="bottomRightXLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="bottomRightYLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="widthLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="heightLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="centerXLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <Label fx:id="centerYLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <Label fx:id="translationXLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9" />
+      <Label fx:id="translationYLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="9" />
+      <Label fx:id="rotationLabel" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="10" />
+      <Label fx:id="scaleLabel" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="11" />
+   </children>
+</GridPane>
